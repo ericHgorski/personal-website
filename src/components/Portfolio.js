@@ -16,7 +16,6 @@ export default class Portfolio extends Component {
                                             <div className="item-wrap">
                                                 <h4>{i.name}</h4>
                                                 <a target="_blank" and rel="noopener noreferrer" href={i.gitLink}>
-                                                    {/* <img src={require(` ${i.picSrc} `)} alt={i.name} className="item-img grow" /> */}
                                                     <img src={`${process.env.PUBLIC_URL}/images/${i.picSrc}`} alt={i.name} className="item-img grow" />
                                                 </a>
                                                 <div className="portfolio-item-meta">

@@ -23,7 +23,7 @@ const data = {
             className: "fa fa-medium",
         },
     ],
-    aboutme: "I recently completed a full-stack web development boot camp at Spiced Academy. I'm ready for a job now yo.",
+    aboutme: "I completed a full-stack web development boot camp at Spiced Academy in Junenp. I'm ready for a job now yo.",
     education: [
         {
             UniversityName: "Spiced Academy",
@@ -91,8 +91,9 @@ const data = {
         },
         {
             name: "Pig Pen Social Network",
-            description: "A social media application built with React.",
-            liveLink: "#",
+            description:
+                "A single page social media application built with React and styled with Material-UI. Features a live chat-room, password reset via email, photo uploads, form validation, error handling, 404 handling, account deletion, SQL injection protection, and CSURF defense.",
+            liveLink: "https://pig-pen-social-network.herokuapp.com/",
             gitLink: "https://github.com/ericHgorski/Pig-Pen-Social-Network",
             picSrc: "pig-pen-preview.png",
         },

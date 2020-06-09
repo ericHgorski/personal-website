@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
                 {
                     scrollTop: $target.offset().top,
                 },
-                500,
+                200,
                 "swing",
                 function() {
                     window.location.hash = target;
@@ -39,7 +39,7 @@ jQuery(document).ready(function($) {
 
     // Give navbar opaque background when user scrolls past 20% of header element.
     $(window).on("scroll", function() {
-        if ($(window).scrollTop() < $("header").height() * 0.2) {
+        if ($(window).scrollTop() < $("header").height() * 0.05) {
             $("#nav-wrap").removeClass("opaque");
         } else {
             $("#nav-wrap").addClass("opaque");
