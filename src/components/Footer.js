@@ -25,7 +25,7 @@ export default class Footer extends Component {
                         </a>
                     </div>
                 </div>
-                <img width="100" src={`${process.env.PUBLIC_URL}/images/made-with-react.png`} />
+                <img id="made-with-react" width="100" src={`${process.env.PUBLIC_URL}/images/made-with-react.png`} />
             </footer>
         );
     }

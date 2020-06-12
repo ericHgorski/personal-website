@@ -6,7 +6,7 @@ export default class Portfolio extends Component {
             <section id="portfolio">
                 <div className="row">
                     <div className="twelve columns collapsed">
-                        <h1>Here are some of my projects</h1>
+                        <h1 style={{ textShadow: "0px 1px 3px rgba(0, 0, 0, 0.8)" }}>Some of my favorite projects</h1>
 
                         <div id="portfolio-wrapper" className="bgrid-halves cf">
                             {data.portfolio &&
@@ -14,7 +14,10 @@ export default class Portfolio extends Component {
                                     return (
                                         <div key={i.name} className="columns portfolio-item">
                                             <div className="item-wrap">
-                                                <h4>{i.name}</h4>
+                                                <a target="_blank" and rel="noopener noreferrer" href={i.liveLink}>
+                                                    <h4>{i.name}</h4>
+                                                </a>
+
                                                 <a target="_blank" and rel="noopener noreferrer" href={i.gitLink}>
                                                     <img src={`${process.env.PUBLIC_URL}/images/${i.picSrc}`} alt={i.name} className="item-img grow" />
                                                 </a>

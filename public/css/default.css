@@ -229,9 +229,9 @@ h6 a {
     font-weight: inherit;
 }
 h1 {
-    font-size: 38px;
+    font-size: 42px;
     line-height: 42px;
-    margin-bottom: 12px;
+    margin-bottom: 70px;
     letter-spacing: -1px;
 }
 h2 {
@@ -243,11 +243,12 @@ h3 {
     font-size: 22px;
     line-height: 30px;
     margin-bottom: 12px;
+    margin-top: 12px;
 }
 h4 {
     font-size: 20px;
     line-height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 h5 {
     font-size: 18px;
@@ -257,11 +258,12 @@ s h6 {
     font-size: 14px;
     line-height: 30px;
 }
-.subheader {
+#get-in-touch {
+    margin-top: 10px;
 }
 
 p {
-    margin: 0 0 30px 0;
+    margin: 0 0 5px 0;
 }
 p img {
     margin: 0;
@@ -270,8 +272,6 @@ p.lead {
     font: 19px/36px "opensans-light", sans-serif;
 }
 
-/* for 'em' and 'strong' tags, font-size and line-height should be same with
-the body tag due to rendering problems in some browsers */
 em {
     font: 15px/30px "opensans-italic", sans-serif;
 }
@@ -622,7 +622,6 @@ img.pull-left {
 
 .button,
 .button:visited,
-button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
@@ -728,6 +727,10 @@ textarea:focus {
 
 textarea {
     min-height: 220px;
+}
+
+#mail-to-link {
+    margin-bottom: 10px;
 }
 
 label,

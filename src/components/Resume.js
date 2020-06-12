@@ -61,6 +61,11 @@ export default class Resume extends Component {
                             })}
                     </div>
                 </div>
+                <a id="resume-download-container" href="/images/eric-gorski-june-2020-resume-v2.pdf" download>
+                    <button class="download-btn">
+                        <i class="fa fa-download"></i> Download Resume
+                    </button>
+                </a>
             </section>
         );
     }

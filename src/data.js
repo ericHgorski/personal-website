@@ -1,6 +1,6 @@
 const data = {
     name: "Eric Gorski",
-    role: "I am Berlin-based  full stack web developer with a background in technical writing, blockchain technology, and content production.",
+    role: "I am Berlin-based full stack web developer with a background in technical writing, data analysis, communications blockchain technology, and content production.",
     socialLinks: [
         {
             name: "linkedin",
@@ -23,7 +23,8 @@ const data = {
             className: "fa fa-medium",
         },
     ],
-    aboutme: "I completed a full-stack web development boot camp at Spiced Academy in Junenp. I'm ready for a job now yo.",
+    aboutme:
+        "In June a graduated from a 3-month full-stack web development bootcamp at Spiced Academy in Berlin. At Spiced, I built on my previous experience as a technical writer and data analyst into the field of web development. I learned HTML, CSS and Javascript, the principles of responsive web-design and mobile-friendly development. I built full-stack applications with React and Vue — including a fully-featured social network application and an online multiplayer arcade game.",
     education: [
         {
             UniversityName: "Spiced Academy",
@@ -31,16 +32,17 @@ const data = {
             MonthOfPassing: "June",
             YearOfPassing: "2020",
             Achievements:
-                "Built responsive web pages and full-stack web applications with HTML, CSS and Javascript. Learned programming fundamentals, the principles of responsive web-design and mobile friendly development.",
+                "Built responsive web pages and full-stack web applications with HTML, CSS, React abd Vue and Javascript. Learned programming fundamentals, the principles of responsive web-design and mobile friendly development.",
         },
         {
             UniversityName: "Vassar College ",
             specialization: "Economics and Political Science",
             MonthOfPassing: "May",
             YearOfPassing: "2018",
-            Achievements: "Departmental Honors, General Honors",
+            Achievements: "Departmental Honors, General Honors, Top 20% of Graduating class.",
         },
     ],
+
     work: [
         {
             CompanyName: "Gnosis",
@@ -48,7 +50,7 @@ const data = {
             MonthOfLeaving: "April",
             YearOfLeaving: "2020",
             Achievements:
-                "Produced a wide range of technical writing and think pieces for Gnosis. Edited all communications content, marketed through relevant social media channels and shaped broader communications strategies.",
+                "Produced a wide range of technical writing, think pieces for Gnosis, including a flagship monthly development update and major product announcements. Edited all communications content, and performed data analysis on Twitter engagement to shape the companies social media strategy and significantly improved outreach.",
         },
         {
             CompanyName: "Berminal",
@@ -56,7 +58,7 @@ const data = {
             MonthOfLeaving: "Aug",
             YearOfLeaving: "2019",
             Achievements:
-                "Oversaw all content-related matters on the Berminal blockchain and cryptocurrency news platform. Managed a group of 8 content creators, led the production of the ‘Daily Berminal Brief’ newsletter, composed marketing materials, and managed relevant social media channels.",
+                "Oversaw all content-related matters on the Berminal blockchain and cryptocurrency news platform.Managed a group of 8 content creators, led the production of the Daily Berminal Brief newsletter, and grew the product user base by over 1000.",
         },
     ],
     portfolio: [
@@ -69,8 +71,16 @@ const data = {
             picSrc: "funky-chicken-preview.png",
         },
         {
+            name: "Pig Pen Social Network",
+            description:
+                "A single-page social networking application built with React and styled with Material-UI. Features a live chat-room, password reset via email, photo uploads, form validation, error handling, 404 handling, account deletion, SQL injection protection, and CSURF defense.",
+            liveLink: "https://pig-pen-social-network.herokuapp.com/",
+            gitLink: "https://github.com/ericHgorski/Pig-Pen-Social-Network",
+            picSrc: "pig-pen-preview.png",
+        },
+        {
             name: "Dream Image Board",
-            description: "A full-feature image board build with Vue.js and AWS. It features image uploading, comments, usernames, and keyboard controls.",
+            description: "A fully-feature image board build with Vue.js and AWS. It features image uploading, comments, usernames, and keyboard controls.",
             liveLink: "https://dream-img-board.herokuapp.com/",
             gitLink: "https://github.com/ericHgorski/Dream-Image-Board",
             picSrc: "dream-image-board-preview.png",
@@ -84,18 +94,10 @@ const data = {
         },
         {
             name: "Simple Spotify API Interface",
-            description: "A UI for searching artists and albums on Spotify.",
+            description: "A UI for searching artists and albums on Spotify that uses the Spotify API.",
             liveLink: "https://simple-spotify.herokuapp.com/",
             gitLink: "https://github.com/ericHgorski/Spotfiy-API-Interface",
             picSrc: "spotify-preview.png",
-        },
-        {
-            name: "Pig Pen Social Network",
-            description:
-                "A single page social media application built with React and styled with Material-UI. Features a live chat-room, password reset via email, photo uploads, form validation, error handling, 404 handling, account deletion, SQL injection protection, and CSURF defense.",
-            liveLink: "https://pig-pen-social-network.herokuapp.com/",
-            gitLink: "https://github.com/ericHgorski/Pig-Pen-Social-Network",
-            picSrc: "pig-pen-preview.png",
         },
     ],
 };
