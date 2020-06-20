@@ -16,8 +16,8 @@ export default class App extends Component {
                 <Header data={data} />
                 <About data={data} />
                 <Portfolio data={data} />
-                {/* <Writing data={data} /> */}
                 <Resume data={data} />
+                {/* <Writing data={data} /> */}
                 {/* <Testimonials data={data} /> */}
                 {/* <Contact data={data} /> */}
                 <Footer data={data} />

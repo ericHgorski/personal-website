@@ -1,6 +1,6 @@
 const data = {
     name: "Eric Gorski",
-    role: "I am Berlin-based full stack web developer with a background in technical writing, data analysis, communications blockchain technology, and content production.",
+    role: "I am a Berlin-based full stack web developer with a background in technical writing, data analysis, and blockchain technology.",
     socialLinks: [
         {
             name: "linkedin",
@@ -24,15 +24,14 @@ const data = {
         },
     ],
     aboutme:
-        "In June a graduated from a 3-month full-stack web development bootcamp at Spiced Academy in Berlin. At Spiced, I built on my previous experience as a technical writer and data analyst into the field of web development. I learned HTML, CSS and Javascript, the principles of responsive web-design and mobile-friendly development. I built full-stack applications with React and Vue — including a fully-featured social network application and an online multiplayer arcade game.",
+        "In June I graduated from a 3-month full-stack web development boot-camp at Spiced Academy in Berlin. At Spiced, I added web development to my skill-set. I am competent in HTML, CSS and Javascript, responsive web-design and mobile-friendly development. I have built full-stack applications with React and Vue — including a fully-featured social network application and an online multiplayer arcade game.",
     education: [
         {
             UniversityName: "Spiced Academy",
             specialization: "Full-Stack Web Development",
             MonthOfPassing: "June",
             YearOfPassing: "2020",
-            Achievements:
-                "Built responsive web pages and full-stack web applications with HTML, CSS, React abd Vue and Javascript. Learned programming fundamentals, the principles of responsive web-design and mobile friendly development.",
+            Achievements: "Built responsive web pages and full-stack web applications with Javascript, HTML, CSS, React and Vue.",
         },
         {
             UniversityName: "Vassar College ",
@@ -50,7 +49,7 @@ const data = {
             MonthOfLeaving: "April",
             YearOfLeaving: "2020",
             Achievements:
-                "Produced a wide range of technical writing, think pieces for Gnosis, including a flagship monthly development update and major product announcements. Edited all communications content, and performed data analysis on Twitter engagement to shape the companies social media strategy and significantly improved outreach.",
+                "Produced technical writing and think pieces for Gnosis, including a flagship monthly development newsletter and major product announcements. Edited communications content, and performed data analysis on Twitter engagement to shape the company's social media strategy and significantly improve outreach.",
         },
         {
             CompanyName: "Berminal",
@@ -58,14 +57,14 @@ const data = {
             MonthOfLeaving: "Aug",
             YearOfLeaving: "2019",
             Achievements:
-                "Oversaw all content-related matters on the Berminal blockchain and cryptocurrency news platform.Managed a group of 8 content creators, led the production of the Daily Berminal Brief newsletter, and grew the product user base by over 1000.",
+                "Oversaw all content-related matters on the Berminal blockchain and cryptocurrency news platform. Managed a group of 8 content creators, led the production of the Daily Berminal Brief newsletter, and grew the product user base by a multiple of 100.",
         },
     ],
     portfolio: [
         {
             name: "Funky Chicken Destroyer",
             description:
-                "A multiplayer arcade game built with Socket.io and Phaser 3. You can test it by opening the live code in two browser windows and firing eggs at the enemy chicken.",
+                "A multiplayer arcade game built with Socket.io and Phaser 3. Test it by opening the live code in two browser windows and firing eggs at the enemy chicken.",
             liveLink: "https://funky-chicken-destroyer.herokuapp.com/",
             gitLink: "https://github.com/ericHgorski/Funky-Chicken-Destroyer-Multiplayer-Arcade-Game",
             picSrc: "funky-chicken-preview.png",
@@ -73,7 +72,7 @@ const data = {
         {
             name: "Pig Pen Social Network",
             description:
-                "A single-page social networking application built with React and styled with Material-UI. Features a live chat-room, password reset via email, photo uploads, form validation, error handling, 404 handling, account deletion, SQL injection protection, and CSURF defense.",
+                "A single-page social networking application built with React and styled with Material-UI. Features a live chat-room, password reset via email, photo uploading, form validation, and account deletion.",
             liveLink: "https://pig-pen-social-network.herokuapp.com/",
             gitLink: "https://github.com/ericHgorski/Pig-Pen-Social-Network",
             picSrc: "pig-pen-preview.png",
@@ -94,7 +93,7 @@ const data = {
         },
         {
             name: "Simple Spotify API Interface",
-            description: "A UI for searching artists and albums on Spotify that uses the Spotify API.",
+            description: "A user interface for searching artists and albums on Spotify that uses the Spotify API.",
             liveLink: "https://simple-spotify.herokuapp.com/",
             gitLink: "https://github.com/ericHgorski/Spotfiy-API-Interface",
             picSrc: "spotify-preview.png",

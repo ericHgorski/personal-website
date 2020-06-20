@@ -12,10 +12,10 @@ body {
 
 header {
     position: relative;
-    height: 800px;
-    min-height: 500px;
+    height: 600px;
+    min-height: 400px;
     width: 100%;
-    background: #8d265a url("../images/header-background.png") no-repeat top center;
+    background: #4d7ea8;
     background-position: 50% 94%;
     background-size: 300px;
     text-align: center;
@@ -35,7 +35,8 @@ header .banner {
     margin: 0 auto;
     width: 85%;
     padding-bottom: 30px;
-    stext-align: center;
+    text-align: center;
+    padding-top: 20px;
 }
 
 header .banner-text {
@@ -46,15 +47,14 @@ header .banner-text h1 {
     margin-top: 120px;
     color: #fff;
     letter-spacing: -2px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+    /* text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8); */
 }
 header .banner-text h3 {
-    font: 25px "librebaskerville-regular", serif;
-    color: #a8a8a8;
+    /* font: 25px "librebaskerville-regular", serif; */
+    color: #fff;
     margin: 0 auto;
     width: 70%;
     line-height: 1.5;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -96,12 +96,12 @@ header .social li a:hover {
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9);
 }
 
-.download-btn {
+#download-btn {
     color: #fff;
     font: 12px "opensans-bold", sans-serif;
     text-transform: uppercase;
-    background-color: forestgreen;
-    margin-bottom: 30px;
+    background-color: #9e90a2;
+    margin-bottom: 40px;
     height: 40px;
 }
 /* scrolldown link */
@@ -151,7 +151,7 @@ header .scrolldown a:hover {
     top: 0;
 }
 .opaque {
-    background-color: #333;
+    background-color: #272932;
 }
 
 /* hide toggle button */
@@ -195,7 +195,7 @@ ul#nav li a:active {
     background-color: transparent !important;
 }
 ul#nav li.current a {
-    color: #0f9095;
+    color: #b6c2d9;
 }
 
 /* ------------------------------------------------------------------ */
@@ -203,7 +203,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: #333333;
+    background: #272932;
     padding-top: 70px;
     padding-bottom: 66px;
     overflow: hidden;
@@ -261,18 +261,18 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-    background-color: honeydew;
+    background-color: #272932;
     padding-top: 40px;
     overflow: hidden;
 }
 
 #resume a,
 #resume a:visited {
-    color: #11abb0;
+    color: #fff;
 }
 #resume a:hover,
 #resume a:focus {
-    color: #313131;
+    color: #272932;
 }
 
 #resume h1 {
@@ -281,8 +281,6 @@ ul#nav li.current a {
     letter-spacing: 1px;
 }
 #resume h1 span {
-    border-bottom: 3px solid #11abb0;
-    border-top: 3px solid #11abb0;
     padding-top: 6px;
     padding-bottom: 6px;
 }
@@ -297,14 +295,17 @@ ul#nav li.current a {
     padding-right: 10%;
 }
 
+.education {
+    border-bottom: 1px solid #e8e8e8;
+}
+
 .education,
 .work {
     margin-bottom: 20px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #e8e8e8;
 }
 #resume .info {
-    color: #6e7881;
+    color: #9e90a2;
     margin-bottom: 18px;
     margin-top: 9px;
 }
@@ -329,12 +330,12 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-    background: #11abb0;
+    background: #4d7ea8;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 #portfolio h1 {
-    font: 25px "opensans-semibold", sans-serif;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
@@ -378,7 +379,7 @@ ul#nav li.current a {
 .item-wrap h4 {
     text-align: center;
     margin-top: 5px;
-    color: #95a3a3;
+    color: #272932;
     margin-top: 5px;
 }
 
@@ -426,8 +427,7 @@ ul#nav li.current a {
     margin-top: -15px;
 }
 .portfolio-item .item-wrap {
-    border: 2px #0f9095 solid;
-    filter: drop-shadow(0 0 1rem #8d265a);
+    border: 1px #272932 solid;
 }
 .portfolio-item .item-wrap img {
     vertical-align: bottom;
@@ -532,7 +532,7 @@ ul#nav li.current a {
 footer {
     padding-top: 40px;
     margin-bottom: 10px;
-    background-color: rgba(240, 96, 0, 0.5);
+    background-color: #4d7ea8;
     font-size: 14px;
     text-align: center;
     position: relative;

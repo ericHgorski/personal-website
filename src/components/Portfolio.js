@@ -6,7 +6,7 @@ export default class Portfolio extends Component {
             <section id="portfolio">
                 <div className="row">
                     <div className="twelve columns collapsed">
-                        <h1 style={{ textShadow: "0px 1px 3px rgba(0, 0, 0, 0.8)" }}>Some of my favorite projects</h1>
+                        <h1>My projects</h1>
 
                         <div id="portfolio-wrapper" className="bgrid-halves cf">
                             {data.portfolio &&

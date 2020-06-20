@@ -8,6 +8,10 @@
         letter-spacing: -1px;
         margin: 0 auto 12px auto;
     }
+    header .banner {
+        padding-bottom: 50px;
+        padding-top: 100px;
+    }
 }
 
 /* screenwidth less than 900px
@@ -16,7 +20,8 @@
     /* header styles
    ------------------------------------------------------------------ */
     header .banner {
-        padding-bottom: 12px;
+        padding-bottom: 50px;
+        padding-top: 100px;
     }
     header .banner-text h1 {
         font: 78px/1.1em "opensans-bold", sans-serif;
@@ -68,13 +73,6 @@
     #testimonials blockquote p {
         font-size: 22px;
         line-height: 46px;
-    }
-
-    /* Call to Action Section
-   ------------------------------------------------------------------- */
-    #call-to-action .header-col h1:before {
-        font-size: 66px;
-        line-height: 66px;
     }
 
     /* Contact Section
@@ -187,8 +185,8 @@
     /* Header Styles
    -------------------------------------------------------------------- */
     header .banner {
-        padding-bottom: 12px;
-        padding-top: 6px;
+        padding-bottom: 50px;
+        padding-top: 150px;
     }
     header .banner-text h1 {
         font: 68px/1.1em "opensans-bold", sans-serif;
