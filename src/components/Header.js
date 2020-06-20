@@ -6,9 +6,7 @@ export default class Header extends Component {
             <>
                 <header id="home">
                     <nav id="nav-wrap">
-                        <a className="mobile-btn" href="#nav-wrap">
-                            Show nav
-                        </a>
+                        <a className="mobile-btn" href="#nav-wrap"></a>
                         <ul id="nav" className="nav">
                             <li className="current">
                                 <a className="smoothscroll" href="#home">

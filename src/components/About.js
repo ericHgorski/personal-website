@@ -6,19 +6,18 @@ export default class About extends Component {
             <section id="about">
                 <div className="row">
                     <div className="three columns">
-                        <img className="profile-pic" src="images/profilepic.png" alt="profile pic" />
+                        <img className="profile-pic" src="images/profilepic.png" alt="eric gorski" />
                     </div>
 
                     <div className="nine columns main-col">
-                        <h2 className="text-shadow ">About Me</h2>
+                        <h2>About Me</h2>
                         <p>{data.aboutme}</p>
                     </div>
                     <div className="nine columns main-col">
                         <h2 id="get-in-touch">Get In Touch</h2>
                         <a id="mail-to-link" href="mailto:er.h.gorski@gmail.com">
-                            Email
+                            Email me — er.h.gorski [at] gmail dot com
                         </a>
-                        {" " + "— er.h.gorski [at] gmail.com"}
                         <p>Berlin, Germany</p>
                     </div>
                 </div>

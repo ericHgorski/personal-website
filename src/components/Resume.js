@@ -8,7 +8,7 @@ export default class Resume extends Component {
                 <div className="row education">
                     <div className="three columns header-col">
                         <h1>
-                            <span>Education</span>
+                            <span className="resume-header">Education</span>
                         </h1>
                     </div>
 
@@ -36,7 +36,7 @@ export default class Resume extends Component {
                 <div className="row work">
                     <div className="three columns header-col">
                         <h1>
-                            <span>Recent Work</span>
+                            <span className="resume-header">Recent Work</span>
                         </h1>
                     </div>
 
@@ -63,8 +63,8 @@ export default class Resume extends Component {
                 </div>
                 <div id="resume-download-container">
                     <button id="download-btn">
-                        <a href="/images/eric-gorski-june-2020-resume-v2.pdf" download>
-                            <i className="fa fa-download"></i> Download Full Resume
+                        <a href="/images/eric-gorski-june-2020-resume-v3.pdf" download>
+                            Download Full Resume
                         </a>
                     </button>
                 </div>

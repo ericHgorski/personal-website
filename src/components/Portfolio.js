@@ -23,7 +23,7 @@ export default class Portfolio extends Component {
                                                 </a>
                                                 <div className="portfolio-item-meta">
                                                     <p>{i.description}</p>
-                                                    <p>{i.technologies}</p>
+                                                    <p id="project-technologies">{i.technologies}</p>
                                                     <div className="portfolio-links-container">
                                                         <a target="_blank" and rel="noopener noreferrer" href={i.liveLink}>
                                                             Live

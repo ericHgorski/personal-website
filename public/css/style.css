@@ -56,7 +56,7 @@ section {
 }
 body {
     background: #fff;
-    font-family: "opensans-regular", sans-serif;
+    font-family: sans-serif;
     font-weight: normal;
     font-size: 15px;
     color: #fff;
@@ -76,6 +76,9 @@ h1 {
     line-height: 42px;
     margin-bottom: 70px;
     letter-spacing: -1px;
+}
+.three.header-col h1 {
+    margin-bottom: 0;
 }
 h2 {
     font-size: 28px;
@@ -98,6 +101,7 @@ h4 {
 }
 p {
     margin: 0 0 5px 0;
+    line-height: 1.5;
 }
 em {
     font: 15px/30px "opensans-italic", sans-serif;
@@ -145,6 +149,7 @@ button::-moz-focus-inner {
 }
 #mail-to-link {
     margin-bottom: 10px;
+    font-size: 16px;
 }
 .row {
     width: 96%;
@@ -187,6 +192,10 @@ button::-moz-focus-inner {
 }
 .bgrid-halves [class*="column"] {
     width: 50%;
+}
+
+.bgrid-thirds[class*="column"] {
+    width: 33.333%;
 }
 [class*="bgrid"] [class*="column"] + [class*="column"]:last-child {
     float: left;
@@ -277,7 +286,7 @@ header .banner-text h3 {
 header .banner-text hr {
     width: 60%;
     margin: 18px auto 24px auto;
-    border-color: #11abb0;
+    border-color: #272932;
     height: 12px;
 }
 header .social {
@@ -295,12 +304,11 @@ header .social li a {
     color: #fff;
 }
 header .social li a:hover {
-    color: #11abb0;
+    color: #947eb0;
 }
 #resume-download-container {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 20px;
+    justify-content: center;
 }
 .text-shadow {
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9);
@@ -309,10 +317,15 @@ header .social li a:hover {
     color: #fff;
     font: 12px "opensans-bold", sans-serif;
     text-transform: uppercase;
-    background-color: #9e90a2;
-    margin-bottom: 40px;
+    background-color: #947eb0;
+    margin-bottom: 50px;
     height: 40px;
 }
+
+.resume-header {
+    color: #4d7ea8;
+}
+
 header .scrolldown a {
     position: absolute;
     bottom: 30px;
@@ -331,7 +344,7 @@ header .scrolldown a {
     transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-    color: #11abb0;
+    color: #947eb0;
 }
 #nav-wrap ul,
 #nav-wrap li,
@@ -355,9 +368,7 @@ header .scrolldown a:hover {
 .opaque {
     background-color: #272932;
 }
-#nav-wrap > a.mobile-btn {
-    display: none;
-}
+
 ul#nav {
     min-height: 48px;
     width: auto;
@@ -386,7 +397,7 @@ ul#nav li a:active {
     background-color: transparent !important;
 }
 ul#nav li.current a {
-    color: #b6c2d9;
+    color: #947eb0;
 }
 #about {
     background: #272932;
@@ -400,14 +411,15 @@ ul#nav li.current a {
 }
 #about a:hover,
 #about a:focus {
-    color: #11abb0;
+    color: #947eb0;
 }
 #about h2 {
     font: 22px/30px "opensans-bold", sans-serif;
-    color: #fff;
+    color: #947eb0;
     margin-bottom: 12px;
 }
 #about p {
+    font-size: 16px;
     line-height: 30px;
     color: #fff;
 }
@@ -478,7 +490,7 @@ ul#nav li.current a {
     padding-bottom: 10px;
 }
 #portfolio h1 {
-    font-size: 30px;
+    font-size: 23px;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
@@ -489,6 +501,8 @@ ul#nav li.current a {
     margin-bottom: 36px;
 }
 .portfolio-item .item-wrap {
+    border: 1px #272932 solid;
+    border-radius: 10px;
     background: #fff;
     overflow: hidden;
     position: relative;
@@ -501,7 +515,13 @@ ul#nav li.current a {
 .portfolio-item .item-wrap a {
     display: block;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
+}
+
+#project-technologies {
+    color: #947eb0;
+    font-size: 12px;
+    margin-top: 5px;
 }
 .grow {
     transition: all 0.2s ease-in-out;
@@ -512,12 +532,11 @@ ul#nav li.current a {
 .item-wrap h4 {
     text-align: center;
     margin-top: 5px;
-    color: #272932;
+    color: #947eb0;
+
     margin-top: 5px;
 }
-.portfolio-item .item-wrap {
-    border: 1px #272932 solid;
-}
+
 .portfolio-item .item-wrap img {
     vertical-align: bottom;
 }
@@ -527,6 +546,7 @@ ul#nav li.current a {
 .portfolio-item .portfolio-item-meta p {
     color: black;
     margin-bottom: 0;
+    line-height: 1.5;
 }
 .portfolio-item .portfolio-links-container {
     display: flex;
@@ -535,7 +555,6 @@ ul#nav li.current a {
 }
 footer {
     padding-top: 40px;
-    margin-bottom: 10px;
     background-color: #4d7ea8;
     font-size: 14px;
     text-align: center;
@@ -588,7 +607,7 @@ footer .social-links li:first-child {
     border-radius: 100%;
 }
 #go-top a:hover {
-    background-color: #0f9095;
+    background-color: #947eb0;
 }
 #made-with-react {
     margin-bottom: 20px;
@@ -652,7 +671,7 @@ footer .social-links li:first-child {
         width: 48px;
         height: 48px;
         text-align: left;
-        background-color: #cc5200;
+        background-color: #947eb0;
         position: relative;
         border: none;
         float: right;
@@ -783,8 +802,11 @@ footer .social-links li:first-child {
         width: auto;
         float: none;
     }
+    header {
+        height: 300px;
+    }
     header .banner {
-        padding-top: 24px;
+        padding-top: 100px;
     }
     header .banner-text h1 {
         font: 40px/1.1em "opensans-bold", sans-serif;

@@ -24,14 +24,15 @@ const data = {
         },
     ],
     aboutme:
-        "In June I graduated from a 3-month full-stack web development boot-camp at Spiced Academy in Berlin. At Spiced, I added web development to my skill-set. I am competent in HTML, CSS and Javascript, responsive web-design and mobile-friendly development. I have built full-stack applications with React and Vue — including a fully-featured social network application and an online multiplayer arcade game.",
+        "In June I graduated from a 3-month full-stack web development boot-camp at Spiced Academy in Berlin. I am highly competent in HTML, CSS and Javascript, responsive web-design and mobile-friendly development. I have built full-stack applications with React and Vue — including a fully-featured social network application and an online multiplayer arcade game. I can speak German at a B2+ level.",
     education: [
         {
             UniversityName: "Spiced Academy",
             specialization: "Full-Stack Web Development",
             MonthOfPassing: "June",
             YearOfPassing: "2020",
-            Achievements: "Built responsive web pages and full-stack web applications with Javascript, HTML, CSS, React and Vue.",
+            Achievements:
+                "Built responsive web pages and full-stack web applications with Javascript, HTML, CSS, React and Vue. Learned programming fundamentals, the principles of responsive web-design and mobile-friendly development.",
         },
         {
             UniversityName: "Vassar College ",
@@ -48,16 +49,16 @@ const data = {
             specialization: "Scientific Writer",
             MonthOfLeaving: "April",
             YearOfLeaving: "2020",
-            Achievements:
-                "Produced technical writing and think pieces for Gnosis, including a flagship monthly development newsletter and major product announcements. Edited communications content, and performed data analysis on Twitter engagement to shape the company's social media strategy and significantly improve outreach.",
+            Achievements: `Produced technical writing and think pieces for Gnosis, including a flagship monthly development newsletter and major product announcements. 
+                Edited communications content, and performed data analysis on Twitter engagement to shape the company's social media strategy and significantly improve outreach.`,
         },
         {
             CompanyName: "Berminal",
             specialization: "Head of Content",
-            MonthOfLeaving: "Aug",
+            MonthOfLeaving: "August",
             YearOfLeaving: "2019",
             Achievements:
-                "Oversaw all content-related matters on the Berminal blockchain and cryptocurrency news platform. Managed a group of 8 content creators, led the production of the Daily Berminal Brief newsletter, and grew the product user base by a multiple of 100.",
+                "Oversaw all content-related matters on the Berminal blockchain and cryptocurrency news platform. Managed a group of 8 content creators, led the production of the Daily Berminal Brief newsletter, and grew the product user base by 100x.",
         },
     ],
     portfolio: [
@@ -68,6 +69,7 @@ const data = {
             liveLink: "https://funky-chicken-destroyer.herokuapp.com/",
             gitLink: "https://github.com/ericHgorski/Funky-Chicken-Destroyer-Multiplayer-Arcade-Game",
             picSrc: "funky-chicken-preview.png",
+            technologies: "Technologies: Phaser 3, Socket.io, Express.",
         },
         {
             name: "Pig Pen Social Network",
@@ -76,6 +78,7 @@ const data = {
             liveLink: "https://pig-pen-social-network.herokuapp.com/",
             gitLink: "https://github.com/ericHgorski/Pig-Pen-Social-Network",
             picSrc: "pig-pen-preview.png",
+            technologies: "Technologies: React, Redux, Node, Express, PostgresSQL, AWS, Socket.io, Javascript.",
         },
         {
             name: "Dream Image Board",
@@ -83,20 +86,16 @@ const data = {
             liveLink: "https://dream-img-board.herokuapp.com/",
             gitLink: "https://github.com/ericHgorski/Dream-Image-Board",
             picSrc: "dream-image-board-preview.png",
+            technologies: "Technologies: Vue, Amazon Web Services, Express, PostresSQL.",
         },
-        {
-            name: "Twitter News Ticker",
-            description: "A simple news ticker that pulls the latest headlines from the Onion and the New York Times Twitter feed and displays them on a moving horizontal ticker.",
-            liveLink: "https://twitter-headline-ticker.herokuapp.com/",
-            gitLink: "https://github.com/ericHgorski/Twitter-Headline-Ticker",
-            picSrc: "twitter-ticker-preview.png",
-        },
+
         {
             name: "Simple Spotify API Interface",
             description: "A user interface for searching artists and albums on Spotify that uses the Spotify API.",
             liveLink: "https://simple-spotify.herokuapp.com/",
             gitLink: "https://github.com/ericHgorski/Spotfiy-API-Interface",
             picSrc: "spotify-preview.png",
+            technologies: "Technologies: jQuery, Handlebars, Ajax.",
         },
     ],
 };
