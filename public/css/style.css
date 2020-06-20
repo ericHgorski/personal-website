@@ -1,0 +1,942 @@
+/*! CSS Used from: https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/default.css */
+/* ! @import https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fontello/css/fontello.css */
+[class^="icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: 0.2em;
+}
+.icon-up-open:before {
+    content: "\e803";
+}
+.icon-down-circle:before {
+    content: "\e809";
+}
+/*! end @import */
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+p,
+em,
+img,
+i,
+ul,
+li,
+footer,
+header,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+    font-family: "opensans-regular", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+h1,
+h2,
+h3,
+h4 {
+    color: #fff;
+    font-family: "opensans-bold", sans-serif;
+    font-weight: normal;
+}
+h1 {
+    font-size: 42px;
+    line-height: 42px;
+    margin-bottom: 70px;
+    letter-spacing: -1px;
+}
+h2 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 6px;
+}
+h3 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+#get-in-touch {
+    margin-top: 10px;
+}
+p {
+    margin: 0 0 5px 0;
+}
+em {
+    font: 15px/30px "opensans-italic", sans-serif;
+}
+hr {
+    border: solid #e3e3e3;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 11px 0 30px;
+    height: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+    outline: 0;
+    color: #4d7ea8;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+a:hover,
+a:focus {
+    color: #313131;
+}
+p a,
+p a:visited {
+    line-height: inherit;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+button:hover {
+    background: #3d4145;
+    color: #fff;
+}
+button:active {
+    background: #3d4145;
+    color: #fff;
+}
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+#mail-to-link {
+    margin-bottom: 10px;
+}
+.row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.row .row {
+    width: auto;
+    max-width: none;
+    margin: 0 -20px;
+}
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+.columns {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
+.columns.collapsed {
+    padding: 0;
+}
+[class*="column"] + [class*="column"]:last-child {
+    float: right;
+}
+.row .three {
+    width: 25%;
+}
+.row .nine {
+    width: 75%;
+}
+.row .twelve {
+    width: 100%;
+}
+.bgrid-halves [class*="column"] {
+    width: 50%;
+}
+[class*="bgrid"] [class*="column"] + [class*="column"]:last-child {
+    float: left;
+}
+@media only screen and (max-width: 767px) {
+    .row {
+        width: 460px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .columns {
+        width: auto !important;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 30px;
+    }
+    .row .row {
+        width: auto;
+        max-width: none;
+        margin: 0 -30px;
+    }
+    [class*="column"] + [class*="column"]:last-child {
+        float: none;
+    }
+    [class*="bgrid"] [class*="column"] + [class*="column"]:last-child {
+        float: none;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .row {
+        width: auto;
+    }
+}
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+/*! CSS Used from: https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/layout.css */
+body {
+    background: rgba(65, 63, 63, 0.8);
+}
+header {
+    position: relative;
+    height: 600px;
+    min-height: 400px;
+    width: 100%;
+    background: #4d7ea8;
+    background-position: 50% 94%;
+    background-size: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+header:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 60%;
+}
+header .banner {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+header .banner-text {
+    width: 100%;
+}
+header .banner-text h1 {
+    font-size: 85px;
+    margin-top: 120px;
+    color: #fff;
+    letter-spacing: -2px;
+}
+header .banner-text h3 {
+    color: #fff;
+    margin: 0 auto;
+    width: 70%;
+    line-height: 1.5;
+}
+header .banner-text hr {
+    width: 60%;
+    margin: 18px auto 24px auto;
+    border-color: #11abb0;
+    height: 12px;
+}
+header .social {
+    margin: 16px 0;
+    padding: 0;
+    font-size: 40px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+}
+header .social li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+}
+header .social li a {
+    color: #fff;
+}
+header .social li a:hover {
+    color: #11abb0;
+}
+#resume-download-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.text-shadow {
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9);
+}
+#download-btn {
+    color: #fff;
+    font: 12px "opensans-bold", sans-serif;
+    text-transform: uppercase;
+    background-color: #9e90a2;
+    margin-bottom: 40px;
+    height: 40px;
+}
+header .scrolldown a {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+header .scrolldown a:hover {
+    color: #11abb0;
+}
+#nav-wrap ul,
+#nav-wrap li,
+#nav-wrap a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+#nav-wrap {
+    font: 12px "opensans-bold", sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.opaque {
+    background-color: #272932;
+}
+#nav-wrap > a.mobile-btn {
+    display: none;
+}
+ul#nav {
+    min-height: 48px;
+    width: auto;
+    text-align: center;
+}
+ul#nav li {
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
+}
+ul#nav li a {
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+ul#nav li a:active {
+    background-color: transparent !important;
+}
+ul#nav li.current a {
+    color: #b6c2d9;
+}
+#about {
+    background: #272932;
+    padding-top: 70px;
+    padding-bottom: 66px;
+    overflow: hidden;
+}
+#about a,
+#about a:visited {
+    color: #fff;
+}
+#about a:hover,
+#about a:focus {
+    color: #11abb0;
+}
+#about h2 {
+    font: 22px/30px "opensans-bold", sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+}
+#about p {
+    line-height: 30px;
+    color: #fff;
+}
+#about .profile-pic {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#about .main-col {
+    padding-right: 5%;
+}
+#resume {
+    background-color: #272932;
+    padding-top: 40px;
+    overflow: hidden;
+}
+#resume a,
+#resume a:visited {
+    color: #fff;
+}
+#resume a:hover,
+#resume a:focus {
+    color: #272932;
+}
+#resume h1 {
+    font: 18px/24px "opensans-bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#resume h1 span {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#resume h3 {
+    font: 25px/30px "opensans-bold", sans-serif;
+}
+#resume .header-col {
+    padding-top: 9px;
+}
+#resume .main-col {
+    padding-right: 10%;
+}
+.education {
+    border-bottom: 1px solid #e8e8e8;
+}
+.education,
+.work {
+    margin-bottom: 20px;
+    padding-bottom: 24px;
+}
+#resume .info {
+    color: #9e90a2;
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+#resume .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#resume .date {
+    font: 15px/24px "opensans-regular", sans-serif;
+    margin-top: 6px;
+}
+#portfolio {
+    background: #4d7ea8;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#portfolio h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #fff;
+}
+#portfolio-wrapper .columns {
+    margin-bottom: 36px;
+}
+.portfolio-item .item-wrap {
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.portfolio-item .item-wrap a {
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+}
+.grow {
+    transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.1);
+}
+.item-wrap h4 {
+    text-align: center;
+    margin-top: 5px;
+    color: #272932;
+    margin-top: 5px;
+}
+.portfolio-item .item-wrap {
+    border: 1px #272932 solid;
+}
+.portfolio-item .item-wrap img {
+    vertical-align: bottom;
+}
+.portfolio-item .portfolio-item-meta {
+    padding: 18px;
+}
+.portfolio-item .portfolio-item-meta p {
+    color: black;
+    margin-bottom: 0;
+}
+.portfolio-item .portfolio-links-container {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+footer {
+    padding-top: 40px;
+    margin-bottom: 10px;
+    background-color: #4d7ea8;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+footer a,
+footer a:visited {
+    color: #525252;
+}
+footer a:hover,
+footer a:focus {
+    color: #fff;
+}
+footer .social-links {
+    margin: 18px 0 30px 0;
+    padding: 0;
+    font-size: 30px;
+}
+footer .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+    color: #f06000;
+}
+footer .social-links li:first-child {
+    margin-left: 0;
+}
+#go-top {
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    margin-left: -30px;
+}
+#go-top a {
+    text-decoration: none;
+    border: 0 none;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #525252;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: #fff;
+    font-size: 21px;
+    line-height: 60px;
+    border-radius: 100%;
+}
+#go-top a:hover {
+    background-color: #0f9095;
+}
+#made-with-react {
+    margin-bottom: 20px;
+}
+/*! CSS Used from: https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/media-queries.css */
+@media only screen and (max-width: 1024px) {
+    header .banner-text h1 {
+        font: 80px/1.1em "opensans-bold", sans-serif;
+        letter-spacing: -1px;
+        margin: 0 auto 12px auto;
+    }
+    header .banner {
+        padding-bottom: 50px;
+        padding-top: 100px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    header .banner {
+        padding-bottom: 50px;
+        padding-top: 100px;
+    }
+    header .banner-text h1 {
+        font: 78px/1.1em "opensans-bold", sans-serif;
+        letter-spacing: -1px;
+    }
+    header .banner-text h3 {
+        font: 17px/1.9em "librebaskerville-regular", serif;
+        width: 80%;
+    }
+    header .banner-text hr {
+        width: 65%;
+        margin: 12px auto;
+    }
+    #nav-wrap {
+        font: 11px "opensans-bold", sans-serif;
+        letter-spacing: 1.5px;
+    }
+    #about .profile-pic {
+        width: 114px;
+        height: 114px;
+        margin-left: 12px;
+    }
+    #resume h1 {
+        font: 16px/24px "opensans-bold", sans-serif;
+    }
+    #resume .main-col {
+        padding-right: 5%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #nav-wrap {
+        font: 12px "opensans-bold", sans-serif;
+        background: transparent !important;
+        letter-spacing: 1.5px;
+        width: auto;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    #nav-wrap > a {
+        width: 48px;
+        height: 48px;
+        text-align: left;
+        background-color: #cc5200;
+        position: relative;
+        border: none;
+        float: right;
+        font: 0/0 a;
+        text-shadow: none;
+        color: transparent;
+        position: relative;
+        top: 0px;
+        right: 30px;
+    }
+    #nav-wrap > a:before,
+    #nav-wrap > a:after {
+        position: absolute;
+        border: 2px solid #fff;
+        top: 35%;
+        left: 25%;
+        right: 25%;
+        content: "";
+    }
+    #nav-wrap > a:after {
+        top: 60%;
+    }
+    #nav-wrap:target > a:last-of-type {
+        display: block;
+    }
+    #nav-wrap ul#nav {
+        height: auto;
+        display: none;
+        clear: both;
+        width: auto;
+        float: right;
+        position: relative;
+        top: 12px;
+        right: 0;
+    }
+    #nav-wrap:target > ul#nav {
+        display: block;
+        padding: 30px 20px 20px 20px;
+        background: #1f2024;
+        margin: 0 30px;
+        clear: both;
+    }
+    ul#nav li {
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        padding: 0 4%;
+        text-align: left;
+        border-bottom: 1px solid #2d2e34;
+        border-bottom-style: dotted;
+    }
+    ul#nav li a {
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin: 12px 0;
+        line-height: 16px;
+        border: none;
+    }
+    header .banner {
+        padding-bottom: 50px;
+        padding-top: 150px;
+    }
+    header .banner-text h1 {
+        font: 68px/1.1em "opensans-bold", sans-serif;
+    }
+    header .banner-text h3 {
+        font: 16px/1.9em "librebaskerville-regular", serif;
+        width: 85%;
+    }
+    header .banner-text hr {
+        width: 80%;
+        margin: 18px auto;
+    }
+    header .social {
+        margin: 18px 0 24px 0;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    header .social li {
+        margin: 0 10px;
+    }
+    header .scrolldown {
+        display: none;
+    }
+    #about .profile-pic {
+        display: none;
+    }
+    #about .main-col {
+        padding-right: 30px;
+    }
+    #resume .header-col {
+        padding-top: 0;
+        margin-bottom: 48px;
+        text-align: center;
+    }
+    #resume h1 {
+        letter-spacing: 3px;
+    }
+    #resume .main-col {
+        padding-right: 30px;
+    }
+    #resume h3,
+    #resume .info {
+        text-align: center;
+    }
+    #portfolio-wrapper .columns {
+        margin-bottom: 40px;
+    }
+    footer .social-links {
+        font-size: 22px;
+    }
+    footer .social-links li {
+        margin-left: 18px;
+    }
+    #go-top {
+        margin-left: -22px;
+    }
+    #go-top a {
+        width: 54px;
+        height: 54px;
+        font-size: 18px;
+        line-height: 54px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #nav-wrap ul#nav {
+        width: auto;
+        float: none;
+    }
+    header .banner {
+        padding-top: 24px;
+    }
+    header .banner-text h1 {
+        font: 40px/1.1em "opensans-bold", sans-serif;
+        margin: 0 auto 24px auto;
+    }
+    header .banner-text h3 {
+        font: 14px/1.9em "librebaskerville-regular", sans-serif;
+        width: 90%;
+    }
+    header .social {
+        font-size: 20px;
+    }
+    header .social li {
+        margin: 0 6px;
+    }
+    footer .social-links {
+        font-size: 20px;
+    }
+    footer .social-links li {
+        margin-left: 14px;
+    }
+}
+/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css */
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-download:before {
+    content: "\f019";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-github:before {
+    content: "\f09b";
+}
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+.fa-medium:before {
+    content: "\f23a";
+}
+/*! CSS Used from: https://use.fontawesome.com/7e2c2e4f8d.css ; media=all */
+@media all {
+    /*! @import //use.fontawesome.com/releases/v4.7.0/css/font-awesome-css.min.css */
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .fa-download:before {
+        content: "\f019";
+    }
+    .fa-twitter:before {
+        content: "\f099";
+    }
+    .fa-github:before {
+        content: "\f09b";
+    }
+    .fa-linkedin:before {
+        content: "\f0e1";
+    }
+    .fa-medium:before {
+        content: "\f23a";
+    }
+    /*! end @import */
+}
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: "fontello";
+    src: url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fontello/font/fontello.eot?13439518");
+    src: url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fontello/font/fontello.eot?13439518#iefix") format("embedded-opentype"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fontello/font/fontello.woff?13439518") format("woff"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fontello/font/fontello.ttf?13439518") format("truetype"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fontello/font/fontello.svg?13439518#fontello") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "opensans-regular";
+    src: url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Regular-webfont.eot");
+    src: url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Regular-webfont.eot#iefix") format("embedded-opentype"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Regular-webfont.woff") format("woff"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Regular-webfont.ttf") format("truetype"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Regular-webfont.svg#open_sansregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "opensans-bold";
+    src: url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Bold-webfont.eot");
+    src: url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Bold-webfont.eot#iefix") format("embedded-opentype"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Bold-webfont.woff") format("woff"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Bold-webfont.ttf") format("truetype"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "opensans-bold";
+    src: url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold") format("svg");
+}
+@font-face {
+    font-family: "opensans-italic";
+    src: url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Italic-webfont.eot");
+    src: url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Italic-webfont.eot#iefix") format("embedded-opentype"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Italic-webfont.woff") format("woff"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Italic-webfont.ttf") format("truetype"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/opensans/OpenSans-Italic-webfont.svg#open_sansitalic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "librebaskerville-regular";
+    src: url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/librebaskerville/librebaskerville-regular-webfont.eot");
+    src: url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/librebaskerville/librebaskerville-regular-webfont.eot#iefix") format("embedded-opentype"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/librebaskerville/librebaskerville-regular-webfont.woff") format("woff"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/librebaskerville/librebaskerville-regular-webfont.ttf") format("truetype"),
+        url("https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/fonts/librebaskerville/librebaskerville-regular-webfont.svg#libre_baskervilleregular")
+            format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "FontAwesome";
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0");
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot#iefix&v=4.7.0") format("embedded-opentype"),
+        url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
+        url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
+        url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
+        url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "FontAwesome";
+    src: url("//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot");
+    src: url("//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"),
+        url("//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff2") format("woff2"),
+        url("//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff") format("woff"),
+        url("//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.ttf") format("truetype"),
+        url("//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.svg#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
