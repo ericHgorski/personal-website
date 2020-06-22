@@ -151,6 +151,7 @@ button::-moz-focus-inner {
     margin-bottom: 10px;
     font-size: 16px;
 }
+
 .row {
     width: 96%;
     max-width: 1020px;
@@ -318,7 +319,7 @@ header .social li a:hover {
     font: 12px "opensans-bold", sans-serif;
     text-transform: uppercase;
     background-color: #947eb0;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     height: 40px;
 }
 

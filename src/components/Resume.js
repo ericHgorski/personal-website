@@ -5,6 +5,13 @@ export default class Resume extends Component {
         let data = this.props.data;
         return (
             <section id="resume">
+                <div id="resume-download-container">
+                    <button id="download-btn">
+                        <a href="/images/eric-gorski-june-2020-resume-v3.pdf" download>
+                            Download Full Resume
+                        </a>
+                    </button>
+                </div>
                 <div className="row education">
                     <div className="three columns header-col">
                         <h1>
@@ -21,7 +28,9 @@ export default class Resume extends Component {
                                             <h3>{i.UniversityName}</h3>
                                             <p className="info">
                                                 {i.specialization}
-                                                <span>&bull;</span>{" "}
+                                                <span>&bull;</span>
+                                                {i.location}
+                                                <span>&bull;</span>
                                                 <em className="date">
                                                     {i.MonthOfPassing} {i.YearOfPassing}
                                                 </em>
@@ -42,31 +51,26 @@ export default class Resume extends Component {
 
                     <div className="nine columns main-col">
                         {data.work &&
-                            data.work.map((item) => {
+                            data.work.map((i) => {
                                 return (
                                     <div className="row item">
                                         <div className="twelve columns">
-                                            <h3>{item.CompanyName}</h3>
+                                            <h3>{i.CompanyName}</h3>
                                             <p className="info">
-                                                {item.specialization}
+                                                {i.specialization}
+                                                <span>&bull;</span>
+                                                {i.location}
                                                 <span>&bull;</span>
                                                 <em className="date">
-                                                    {item.MonthOfLeaving} {item.YearOfLeaving}
+                                                    {i.MonthOfLeaving} {i.YearOfLeaving}
                                                 </em>
                                             </p>
-                                            <p>{item.Achievements}</p>
+                                            <p>{i.Achievements}</p>
                                         </div>
                                     </div>
                                 );
                             })}
                     </div>
-                </div>
-                <div id="resume-download-container">
-                    <button id="download-btn">
-                        <a href="/images/eric-gorski-june-2020-resume-v3.pdf" download>
-                            Download Full Resume
-                        </a>
-                    </button>
                 </div>
             </section>
         );

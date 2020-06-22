@@ -1,6 +1,6 @@
 const data = {
     name: "Eric Gorski",
-    role: "I am a Berlin-based full stack web developer with a background in technical writing, data analysis, and blockchain technology.",
+    role: "I am a Berlin-based full-stack web developer with a background in technical writing, data analysis, and blockchain technology.",
     socialLinks: [
         {
             name: "linkedin",
@@ -24,19 +24,21 @@ const data = {
         },
     ],
     aboutme:
-        "In June I graduated from a 3-month full-stack web development boot-camp at Spiced Academy in Berlin. I am highly competent in HTML, CSS and Javascript, responsive web-design and mobile-friendly development. I have built full-stack applications with React and Vue — including a fully-featured social network application and an online multiplayer arcade game. I can speak German at a B2+ level.",
+        "I graduated from a 3-month full-stack web development boot-camp at Spiced Academy in June of 2020. I am highly competent in HTML, CSS and Javascript, responsive web-design and mobile-friendly development. I have built full-stack applications with React and Vue — including a fully-featured social network application and an online multiplayer arcade game. I am a native English speaker with dual US-German citizen and B2+ competency in German and French.",
     education: [
         {
-            UniversityName: "Spiced Academy",
+            UniversityName: "Spiced Academy ",
             specialization: "Full-Stack Web Development",
+            location: "Berlin, Germany",
             MonthOfPassing: "June",
             YearOfPassing: "2020",
             Achievements:
                 "Built responsive web pages and full-stack web applications with Javascript, HTML, CSS, React and Vue. Learned programming fundamentals, the principles of responsive web-design and mobile-friendly development.",
         },
         {
-            UniversityName: "Vassar College ",
+            UniversityName: "Vassar College  ",
             specialization: "Economics and Political Science",
+            location: "New York, USA",
             MonthOfPassing: "May",
             YearOfPassing: "2018",
             Achievements: "Departmental Honors, General Honors, Top 20% of Graduating class.",
@@ -47,6 +49,7 @@ const data = {
         {
             CompanyName: "Gnosis",
             specialization: "Scientific Writer",
+            location: "Berlin, Germany",
             MonthOfLeaving: "April",
             YearOfLeaving: "2020",
             Achievements: `Produced technical writing and think pieces for Gnosis, including a flagship monthly development newsletter and major product announcements. 
@@ -55,6 +58,8 @@ const data = {
         {
             CompanyName: "Berminal",
             specialization: "Head of Content",
+            location: "New York City, USA",
+
             MonthOfLeaving: "August",
             YearOfLeaving: "2019",
             Achievements:
@@ -74,15 +79,15 @@ const data = {
         {
             name: "Pig Pen Social Network",
             description:
-                "A single-page social networking application built with React and styled with Material-UI. Features a live chat-room, password reset via email, photo uploading, form validation, and account deletion.",
+                "A single-page social networking application built with React and styled with Material-UI. Features a live chat-room, password reset via email, form validation, and account deletion.",
             liveLink: "https://pig-pen-social-network.herokuapp.com/",
             gitLink: "https://github.com/ericHgorski/Pig-Pen-Social-Network",
             picSrc: "pig-pen-preview.png",
-            technologies: "Technologies: React, Redux, Node, Express, PostgresSQL, AWS, Socket.io, Javascript.",
+            technologies: "Technologies: React, Redux, PostgresSQL, AWS, Socket.io, Javascript.",
         },
         {
             name: "Dream Image Board",
-            description: "A fully-feature image board build with Vue.js and AWS. It features image uploading, comments, usernames, and keyboard controls.",
+            description: "A fully-feature image board build with Vue.js and AWS. It features image uploading, comments, and keyboard controls.",
             liveLink: "https://dream-img-board.herokuapp.com/",
             gitLink: "https://github.com/ericHgorski/Dream-Image-Board",
             picSrc: "dream-image-board-preview.png",
