@@ -18,7 +18,7 @@ export default class About extends Component {
                         <a id="mail-to-link" href="mailto:er.h.gorski@gmail.com">
                             Email me — er.h.gorski [at] gmail dot com
                         </a>
-                        <p>Berlin, Germany</p>
+                        <p>USA // Germany</p>
                     </div>
                 </div>
             </section>

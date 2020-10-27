@@ -1,6 +1,6 @@
 const data = {
     name: "Eric Gorski",
-    role: "I am a Berlin-based full-stack web developer with a background in technical writing, data analysis, and blockchain technology.",
+    role: "I'm a software engineer with a background in technical writing, data analysis, and blockchain technology.",
     socialLinks: [
         {
             name: "linkedin",
@@ -24,7 +24,7 @@ const data = {
         },
     ],
     aboutme:
-        "I graduated from a 3-month full-stack web development boot-camp at Spiced Academy in June of 2020. I am highly competent in HTML, CSS and Javascript, responsive web-design and mobile-friendly development. I have built full-stack applications with React and Vue — including a fully-featured social network application and an online multiplayer arcade game. I am a native English speaker with dual US-German citizen and B2+ competency in German and French.",
+        "I build full-stack responsive Web3 and EOS web applications with React and Vue. I am a native English speaker with dual US-German citizen and B2+ competency in German and French.",
     education: [
         {
             UniversityName: "Spiced Academy ",
@@ -41,11 +41,19 @@ const data = {
             location: "New York, USA",
             MonthOfPassing: "May",
             YearOfPassing: "2018",
-            Achievements: "Departmental Honors, General Honors, Top 20% of Graduating class.",
+            Achievements: "Top 10% of Graduating class.",
         },
     ],
 
     work: [
+        {
+            CompanyName: "Yup",
+            specialization: "Software Engineer",
+            location: "New York City, USA",
+            MonthOfLeaving: "Present",
+            YearOfLeaving: "",
+            Achievements: `Working in face-paced, full-stack web development on the Yup chrome extension and web application. Technologies include React, MongoDB, AWS, GraphQl, Web3, EOS blockchain, and Node/Express.`,
+        },
         {
             CompanyName: "Gnosis",
             specialization: "Scientific Writer",
@@ -59,7 +67,6 @@ const data = {
             CompanyName: "Berminal",
             specialization: "Head of Content",
             location: "New York City, USA",
-
             MonthOfLeaving: "August",
             YearOfLeaving: "2019",
             Achievements:

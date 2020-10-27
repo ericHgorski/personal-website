@@ -7,40 +7,10 @@ export default class Resume extends Component {
             <section id="resume">
                 <div id="resume-download-container">
                     <button id="download-btn">
-                        <a href="/images/eric-gorski-june-2020-resume-v3.pdf" download>
+                        <a href="/images/eric-gorski-june-2020-november-v3.pdf" download>
                             Download Full Resume
                         </a>
                     </button>
-                </div>
-                <div className="row education">
-                    <div className="three columns header-col">
-                        <h1>
-                            <span className="resume-header">Education</span>
-                        </h1>
-                    </div>
-
-                    <div className="nine columns main-col">
-                        {data.education &&
-                            data.education.map((i) => {
-                                return (
-                                    <div key={i.UniversityName} className="row item">
-                                        <div className="twelve columns">
-                                            <h3>{i.UniversityName}</h3>
-                                            <p className="info">
-                                                {i.specialization}
-                                                <span>&bull;</span>
-                                                {i.location}
-                                                <span>&bull;</span>
-                                                <em className="date">
-                                                    {i.MonthOfPassing} {i.YearOfPassing}
-                                                </em>
-                                            </p>
-                                            <p>{i.Achievements}</p>
-                                        </div>
-                                    </div>
-                                );
-                            })}
-                    </div>
                 </div>
                 <div className="row work">
                     <div className="three columns header-col">
@@ -72,6 +42,38 @@ export default class Resume extends Component {
                             })}
                     </div>
                 </div>
+
+                <div className="row education">
+                    <div className="three columns header-col">
+                        <h1>
+                            <span className="resume-header">Education</span>
+                        </h1>
+                    </div>
+
+                    <div className="nine columns main-col">
+                        {data.education &&
+                            data.education.map((i) => {
+                                return (
+                                    <div key={i.UniversityName} className="row item">
+                                        <div className="twelve columns">
+                                            <h3>{i.UniversityName}</h3>
+                                            <p className="info">
+                                                {i.specialization}
+                                                <span>&bull;</span>
+                                                {i.location}
+                                                <span>&bull;</span>
+                                                <em className="date">
+                                                    {i.MonthOfPassing} {i.YearOfPassing}
+                                                </em>
+                                            </p>
+                                            <p>{i.Achievements}</p>
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                    </div>
+                </div>
+                
             </section>
         );
     }
