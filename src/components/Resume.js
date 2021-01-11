@@ -7,7 +7,7 @@ export default class Resume extends Component {
             <section id="resume">
                 <div id="resume-download-container">
                     <button id="download-btn">
-                        <a href="/images/eric-gorski-june-2020-november-v3.pdf" download>
+                        <a href="/images/eric-gorski-november-2020-resume-v3.pdf" download>
                             Download Full Resume
                         </a>
                     </button>

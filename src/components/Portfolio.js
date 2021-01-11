@@ -28,9 +28,12 @@ export default class Portfolio extends Component {
                                                         <a target="_blank" and rel="noopener noreferrer" href={i.liveLink}>
                                                             Live
                                                         </a>
-                                                        <a target="_blank" and rel="noopener noreferrer" href={i.gitLink}>
+                                                        {i.gitLink && (
+                                                          <a target="_blank" and rel="noopener noreferrer" href={i.gitLink}>
                                                             Code
-                                                        </a>
+                                                          </a>
+                                                        )}
+                                                        
                                                     </div>
                                                 </div>
                                             </div>

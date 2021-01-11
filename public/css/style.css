@@ -561,6 +561,10 @@ footer {
     text-align: center;
     position: relative;
 }
+.item-img {
+  height: 300px;
+  width: 100%;
+}
 footer a,
 footer a:visited {
     color: #525252;

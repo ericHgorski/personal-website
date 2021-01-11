@@ -74,6 +74,22 @@ const data = {
         },
     ],
     portfolio: [
+          {
+            name: "Yup Finance",
+            description: "A gamefied, yield-farming interface for the YUP-ETH liquidity provider token.",
+            liveLink: "https://yup.finance/",
+            gitLink: null,
+            picSrc: "yup-finance-preview.png",
+            technologies: "Technologies: React, Scatter, Redux.",
+        },
+        {
+            name: "ETH —> EOS Bridge",
+            description: "A user interface for bridging YUP or YUPETH tokens from Ethereum to EOS.",
+            liveLink: "https://www.etheos.xyz/",
+            gitLink: null,
+            picSrc: "etheos-preview.png",
+            technologies: "Technologies: React, Web3, Scatter.",
+        },
         {
             name: "Funky Chicken Destroyer",
             description:
@@ -92,23 +108,7 @@ const data = {
             picSrc: "pig-pen-preview.png",
             technologies: "Technologies: React, Redux, PostgresSQL, AWS, Socket.io, Javascript.",
         },
-        {
-            name: "Dream Image Board",
-            description: "A fully-feature image board build with Vue.js and AWS. It features image uploading, comments, and keyboard controls.",
-            liveLink: "https://dream-img-board.herokuapp.com/",
-            gitLink: "https://github.com/ericHgorski/Dream-Image-Board",
-            picSrc: "dream-image-board-preview.png",
-            technologies: "Technologies: Vue, Amazon Web Services, Express, PostresSQL.",
-        },
-
-        {
-            name: "Simple Spotify API Interface",
-            description: "A user interface for searching artists and albums on Spotify that uses the Spotify API.",
-            liveLink: "https://simple-spotify.herokuapp.com/",
-            gitLink: "https://github.com/ericHgorski/Spotfiy-API-Interface",
-            picSrc: "spotify-preview.png",
-            technologies: "Technologies: jQuery, Handlebars, Ajax.",
-        },
+        
     ],
 };
 
