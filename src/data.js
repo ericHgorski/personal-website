@@ -24,7 +24,7 @@ const data = {
     },
   ],
   aboutme:
-    "I work on full-stack web applications in the web3 space. I am a native English speaker who lives in New York City.",
+    "I work on full-stack web applications in the web3 space. I am a native English speaker who lives in New York City. I also enjoy biking and playing tennis.",
   education: [
     {
       UniversityName: "Spiced Academy ",
@@ -44,7 +44,6 @@ const data = {
       Achievements: "Top 10% of Graduating class.",
     },
   ],
-
   work: [
     {
       CompanyName: "Yup",
@@ -102,14 +101,39 @@ const data = {
     {
       name: "Yup Web App",
       description:
-        "A web app for intereacting with the Yup.io curation protocol and platform.",
+        "A social media web app for intereacting with the Yup.io curation protocol and platform.",
       liveLink: "https://app.yup.io/",
       gitLink: "https://github.com/Yup-io/app-frontend",
       picSrc: "webapp-preview.png",
       technologies: "Technologies: React, Elastic Search, AWS, Express.",
     },
-    
   ],
-};
+  writing: [
+    {
+    name: "The Parrot and the Viper: A Tale of Ethereum Scalability",
+    description: "Or what are zk-SNARKs and why do they matter.",
+    liveLink: "https://media.consensys.net/the-parrot-and-the-viper-a-tale-of-ethereum-scalability-ef475f84c2f0",
+    picSrc: "parrot-preview.png",
+  },
+  {
+  name: "Pepe the Tadpole: Retreat to the Cyber-Pond",
+  description: "The water’s still warm.",
+  liveLink: "https://medium.com/@eric.gorski/pepe-the-tadpole-the-metamorphosis-of-the-alt-right-abaa96f1ed69",
+  picSrc: "pepe-preview.png",
+  },
+  {
+    name: "Decentralized Exchanges Have a Problem",
+    description: "The perils of front-running on the blockchain.",
+    liveLink: "https://blog.gnosis.pm/decentralized-exchanges-have-a-problem-7e6d81d91ba1",
+    picSrc: "frontrunning-preview.png",
+  },
+  {
+    name: "Could Prediction Markets Prevent Wars?",
+    description: "In May of 2001, a cargo ship carrying a rather unassuming shipping container laden...",
+    liveLink: "https://blog.gnosis.pm/could-prediction-markets-prevent-wars-d6d8f2fad9a0",
+    picSrc: "prediction-market-preview.png",
+  }
+],
+}
 
 export default data;

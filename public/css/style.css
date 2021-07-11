@@ -615,9 +615,6 @@ footer .social-links li:first-child {
 #go-top a:hover {
     background-color: #947eb0;
 }
-#made-with-react {
-    margin-bottom: 20px;
-}
 /*! CSS Used from: https://5eee1032b11b6da9c77251d2--nifty-turing-0c6e4e.netlify.app/css/media-queries.css */
 @media only screen and (max-width: 1024px) {
     header .banner-text h1 {

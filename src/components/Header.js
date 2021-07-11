@@ -24,16 +24,17 @@ export default class Header extends Component {
         </a>
         </li>
         <li>
-        <a className="smoothscroll" href="#writing">
-          Writing
-        </a>
-        </li>
-
         <li>
         <a className="smoothscroll" href="#resume">
           Resume
         </a>
         </li>
+        <a className="smoothscroll" href="#writing">
+          Writing
+        </a>
+        </li>
+
+
       </ul>
       </nav>
 
