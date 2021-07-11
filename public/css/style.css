@@ -499,6 +499,20 @@ ul#nav li.current a {
     margin-bottom: 48px;
     color: #fff;
 }
+#writing {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.9);
+	animation: gradient 30s ease infinite;
+}
+#writing h1 {
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #fff;
+}
 #portfolio-wrapper .columns {
     margin-bottom: 36px;
 }

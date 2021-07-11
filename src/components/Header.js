@@ -8,33 +8,22 @@ export default class Header extends Component {
       <nav id="nav-wrap">
       <a className="mobile-btn" href="#nav-wrap"> </a>
       <ul id="nav" className="nav">
+        
         <li className="current">
-        <a className="smoothscroll" href="#home">
-          Home
-        </a>
+            <a className="smoothscroll" href="#home">Home</a>
         </li>
         <li>
-        <a className="smoothscroll" href="#about">
-          About
-        </a>
+            <a className="smoothscroll" href="#about">About</a>
         </li>
         <li>
-        <a className="smoothscroll" href="#portfolio">
-          Portfolio
-        </a>
+            <a className="smoothscroll" href="#portfolio">Portfolio</a>
         </li>
         <li>
+            <a className="smoothscroll" href="#resume">Resume</a>
+        </li>
         <li>
-        <a className="smoothscroll" href="#resume">
-          Resume
-        </a>
+            <a className="smoothscroll" href="#writing">Writing</a>
         </li>
-        <a className="smoothscroll" href="#writing">
-          Writing
-        </a>
-        </li>
-
-
       </ul>
       </nav>
 

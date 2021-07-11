@@ -92,7 +92,7 @@ const data = {
     {
       name: "Funky Chicken Destroyer",
       description:
-        "A multiplayer arcade game built with Socket.io and Phaser 3. Test it by opening the live code in two browser windows and firing eggs at the enemy chicken.",
+        "A multiplayer arcade game built with Socket.io and Phaser 3.",
       liveLink: "https://funky-chicken-destroyer.herokuapp.com/",
       gitLink: "https://github.com/ericHgorski/Funky-Chicken-Destroyer-Multiplayer-Arcade-Game",
       picSrc: "funky-chicken-preview.png",
@@ -110,7 +110,7 @@ const data = {
   ],
   writing: [
     {
-    name: "The Parrot and the Viper: A Tale of Ethereum Scalability",
+    name: " A Tale of Ethereum Scalability",
     description: "Or what are zk-SNARKs and why do they matter.",
     liveLink: "https://media.consensys.net/the-parrot-and-the-viper-a-tale-of-ethereum-scalability-ef475f84c2f0",
     picSrc: "parrot-preview.png",
@@ -129,11 +129,11 @@ const data = {
   },
   {
     name: "Could Prediction Markets Prevent Wars?",
-    description: "In May of 2001, a cargo ship carrying a rather unassuming shipping container laden...",
+    description: "Perhpas they could help.",
     liveLink: "https://blog.gnosis.pm/could-prediction-markets-prevent-wars-d6d8f2fad9a0",
     picSrc: "prediction-market-preview.png",
   }
-],
+]
 }
 
-export default data;
+export default data

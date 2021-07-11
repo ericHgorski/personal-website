@@ -3,10 +3,10 @@ export default class Portfolio extends Component {
   render() {
     let data = this.props.data;
     return (
-      <section id="portfolio">
+      <section id="writing">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Things I've written</h1>
+            <h1>Writings</h1>
             <div id="portfolio-wrapper" className="bgrid-halves cf">
               {data.writing &&
                 data.writing.map((i) => {
