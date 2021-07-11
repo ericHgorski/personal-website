@@ -10,18 +10,18 @@ import Footer from "./components/Footer";
 import data from "./data";
 
 export default class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <Header data={data} />
-                <About data={data} />
-                <Portfolio data={data} />
-                <Resume data={data} />
-                {/* <Writing data={data} /> */}
-                {/* <Testimonials data={data} /> */}
-                {/* <Contact data={data} /> */}
-                <Footer data={data} />
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="App">
+        <Header data={data} />
+        <About data={data} />
+        <Portfolio data={data} />
+        <Resume data={data} />
+        {/* <Writing data={data} /> */}
+        {/* <Testimonials data={data} /> */}
+        {/* <Contact data={data} /> */}
+        <Footer data={data} />
+      </div>
+    );
+  }
 }

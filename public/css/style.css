@@ -55,8 +55,8 @@ section {
     box-sizing: border-box;
 }
 body {
-    background: #fff;
-    font-family: sans-serif;
+    background: black;
+    font-family: "opensans-bold", sans-serif;
     font-weight: normal;
     font-size: 15px;
     color: #fff;
@@ -245,14 +245,14 @@ body {
 }
 header {
     position: relative;
-    height: 600px;
+    height: 550px;
     min-height: 400px;
     width: 100%;
-    background: #4d7ea8;
-    background-position: 50% 94%;
-    background-size: 300px;
     text-align: center;
     overflow: hidden;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 30s ease infinite;
 }
 header:before {
     content: "";
@@ -324,7 +324,7 @@ header .social li a:hover {
 }
 
 .resume-header {
-    color: #4d7ea8;
+    color: #947eb0;
 }
 
 header .scrolldown a {
@@ -486,9 +486,10 @@ ul#nav li.current a {
     margin-top: 6px;
 }
 #portfolio {
-    background: #4d7ea8;
     padding-top: 30px;
     padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.9);
+	animation: gradient 30s ease infinite;
 }
 #portfolio h1 {
     font-size: 23px;
@@ -504,7 +505,7 @@ ul#nav li.current a {
 .portfolio-item .item-wrap {
     border: 1px #272932 solid;
     border-radius: 10px;
-    background: #fff;
+    background: rgb(87, 85, 85);
     overflow: hidden;
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
@@ -556,7 +557,7 @@ ul#nav li.current a {
 }
 footer {
     padding-top: 40px;
-    background-color: #4d7ea8;
+    background-color: rgba(0, 0, 0, 0.9);
     font-size: 14px;
     text-align: center;
     position: relative;
@@ -859,6 +860,19 @@ footer .social-links li:first-child {
     content: "\f23a";
 }
 /*! CSS Used from: https://use.fontawesome.com/7e2c2e4f8d.css ; media=all */
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 @media all {
     /*! @import //use.fontawesome.com/releases/v4.7.0/css/font-awesome-css.min.css */
     .fa {
