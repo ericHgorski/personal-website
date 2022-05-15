@@ -1,6 +1,6 @@
 const data = {
   name: "Eric Gorski",
-  role: "A software engineer with a background in technical writing, data analysis, and blockchain technology.",
+  role: "A software engineer with a background in developer relations, technical writing, and blockchain technology.",
   socialLinks: [
     {
       name: "linkedin",
@@ -46,11 +46,19 @@ const data = {
   ],
   work: [
     {
-      CompanyName: "Yup",
-      specialization: "Software Engineer",
+      CompanyName: "Terraform Labs",
+      specialization: "Developer Relations Engineer",
       location: "New York City, USA",
       MonthOfLeaving: "Present",
       YearOfLeaving: "",
+      Achievements: `Produced documentation and built developer tooling for the Terra ecosystem. Technologies include React, Rust, and CosmWasm.`,
+    },
+    {
+      CompanyName: "Yup",
+      specialization: "Software Engineer",
+      location: "New York City, USA",
+      MonthOfLeaving: "April",
+      YearOfLeaving: "2022",
       Achievements: `Working in face-paced, full-stack web development on the Yup chrome extension and web application. Technologies include React, MongoDB, AWS, GraphQl, Web3, EOS blockchain, and Node/Express.`,
     },
     {
@@ -62,15 +70,6 @@ const data = {
       Achievements: `Produced technical writing and think pieces for Gnosis, including a flagship monthly development newsletter and major product announcements. 
         Edited communications content, and performed data analysis on Twitter engagement to shape the company's social media strategy and significantly improve outreach.`,
     },
-    {
-      CompanyName: "Berminal",
-      specialization: "Head of Content",
-      location: "New York City, USA",
-      MonthOfLeaving: "August",
-      YearOfLeaving: "2019",
-      Achievements:
-        "Oversaw all content-related matters on the Berminal blockchain and cryptocurrency news platform. Managed a group of 8 content creators, led the production of the Daily Berminal Brief newsletter, and grew the product user base by 100x.",
-    },
   ],
   portfolio: [
       {
@@ -80,23 +79,6 @@ const data = {
       gitLink: null,
       picSrc: "yup-finance-preview.png",
       technologies: "Technologies: React, Scatter, Redux, Express, Mongodb.",
-    },
-    {
-      name: "ETH EOS Crypto Bridge",
-      description: "A user interface for bridging YUP or YUPETH tokens from Ethereum to EOS.",
-      liveLink: "https://www.etheos.xyz/",
-      gitLink: null,
-      picSrc: "etheos-preview.png",
-      technologies: "Technologies: React, Web3, Scatter.",
-    },
-    {
-      name: "Funky Chicken Destroyer",
-      description:
-        "A multiplayer arcade game built with Socket.io and Phaser 3.",
-      liveLink: "https://funky-chicken-destroyer.herokuapp.com/",
-      gitLink: "https://github.com/ericHgorski/Funky-Chicken-Destroyer-Multiplayer-Arcade-Game",
-      picSrc: "funky-chicken-preview.png",
-      technologies: "Technologies: Phaser 3, Socket.io, Express.",
     },
     {
       name: "Yup Web App",
